@@ -1,0 +1,27 @@
+1. Quicksort is implemented using a pivot and parition. For the pivot I picked the last element on the array (size - 1). Then I put the pivot in the correct position and put all elements that are less than the pivot before the pivot and all elements greater than the pivot, after the pivot. After you have done this, you should keep track of the left-most elements in each branch and use it as a pivot to sort until the whole array is sorted.
+
+(a)
+ordered:
+i: 9999
+s: 49995000
+m: 69008
+h: 273912
+q: 49995000
+
+random:
+i:25154671
+s:49995000
+m:120414
+h:258468
+q:148343
+
+reversed
+i:50004999
+s:49995000
+m:64608
+h:243392
+q:49995000
+
+(b) No, I just used to input array and I performed all the methods with said array.
+
+(c) I noticed that insertion sort was very efficient for ordered lists. Merge sort was very efficient with reversed lists. It was also most efficient for random lists, but also random lists can vary depending on how sorted to unsorted they are. 
